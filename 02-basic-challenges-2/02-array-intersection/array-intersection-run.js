@@ -2,4 +2,11 @@ const arrayIntersection = require('./array-intersection');
 
 const result = arrayIntersection([1, 2, 3, 4, 5], [3, 4, 5, 6, 7]);
 
-console.log(result);
+console.table({
+    'arr1': [1, 2, 3, 4, 5], 
+    'arr2': [3, 4, 5, 6, 7]
+});
+
+console.table({
+    'intersection': result
+});
