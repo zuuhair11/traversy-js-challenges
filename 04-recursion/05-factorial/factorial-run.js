@@ -2,4 +2,4 @@ const factorial = require('./factorial');
 
 const result = factorial(5);
 
-console.log(result);
+console.table({'5' :result});
